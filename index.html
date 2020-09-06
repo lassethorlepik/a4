@@ -69,7 +69,20 @@ Sissejuhatus ja kokkuvõte peaks olema omavahel seotud. Lugedes ainult sissejuha
 		</div>
 		</div>
 		<img src="tekst.PNG" alt="alumine tekst" width="900" height=auto id="alumine">
+
+		<div class="hitbox" style="background-color:red;left:25px;top:1040px;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1464'"></div>
+		<div class="hitbox" style="background-color:red;left:25px;top:1130px;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1465'"></div>
+		<div class="hitbox" style="background-color:red;left:25px;top:1220px;height:50px;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1466'"></div>
+		<div class="hitbox" style="background-color:red;left:25px;top:1270px;height:50px;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1467'"></div>
+		<div class="hitbox" style="background-color:red;left:315px;top:930px;height:60px;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1463'"></div>
+		<div class="hitbox" style="background-color:red;left:315px;top:1000px;height:50px;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1457'"></div>
+		<div class="hitbox" style="background-color:red;left:315px;top:1050px;height:50px;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1458'"></div>
+		<div class="hitbox" style="background-color:red;left:315px;top:1110px;height:50px;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1459'"></div>
+		<div class="hitbox" style="background-color:red;left:315px;top:1160px;height:50px;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1460'"></div>
+		<div class="hitbox" style="background-color:red;left:315px;top:1210px;height:70px;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1462'"></div>
 		
+
+
 </body>
 <style>
 #tulp {
@@ -149,9 +162,14 @@ position: relative;
 display: inline-block;
 width:250px;
 height:50px;
-
 }
-
+.hitbox {
+  position: absolute;
+  z-index: 1;
+  width: 250px;
+  height: 90px;
+  opacity: 0.5;
+}
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 300px;
