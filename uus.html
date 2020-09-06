@@ -1,0 +1,122 @@
+<html>
+	<title style= "font-family: 'Catamaran', sans-serif; text-align: center;">
+        text
+	</title>
+    <head>
+	 <link rel="stylesheet" type="text/css" href="style.css">
+	 <link href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div id="tulp">
+			<div class="pealkiri">
+				<p></p>
+			</div>
+			
+			<div class="tooltip" id="t1">
+				<span class="tooltiptext">Tooltip text</span>
+			</div>
+			<div class="tooltip" id="t2">
+				<span class="tooltiptext">Tooltip text</span>
+			</div>
+			<div class="tooltip" id="t3">
+				<span class="tooltiptext">Tooltip text</span>
+			</div>
+			<div class="tooltip" id="t4">
+				<span class="tooltiptext">Tooltip text</span>
+			</div>
+			<div class="tooltip" id="t5">
+				<span class="tooltiptext">Tooltip text</span>
+			</div>
+			<div class="tooltip" id="t6">
+				<span class="tooltiptext">Tooltip text</span>
+			</div>
+			<div class="tooltip" id="t7">
+				<span class="tooltiptext">Tooltip text</span>
+			</div>
+		</div>
+		
+</body>
+<style>
+#tulp {
+display: flex;
+flex-direction: column;
+background-image: url("2.jpg");
+background-size: contain;
+height:785px;
+width:500px;
+}
+#t1 {
+display:inline-block;
+position: absolute;
+top: 30px;
+left: 130px;
+}
+#t2 {
+display:inline-block;
+position: absolute;
+top: 130px;
+left: 90px;
+}
+#t3 {
+display:inline-block;
+position: absolute;
+top: 230px;
+left: 90px;
+}
+#t4 {
+display:inline-block;
+position: absolute;
+top: 360px;
+left: 90px;
+}
+#t5 {
+display:inline-block;
+position: absolute;
+top: 470px;
+left: 90px;
+}
+#t6 {
+display:inline-block;
+position: absolute;
+top: 600px;
+left: 90px;
+}
+#t7 {
+display:inline-block;
+position: absolute;
+top: 700px;
+left: 90px;
+}
+
+/* tooltip */
+.tooltip {
+position: relative;
+display: inline-block;
+width:250px;
+height:50px;
+
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top:50px;
+
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+</style>
+<script>
+</script>
+</html>
