@@ -33,7 +33,6 @@ argumentide paikapidavuses.<br>
 </p>
 
 		</div>
-		<div id="scale">
 		<div id="tulp">
 			
 			<div class="tooltip" id="t1" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1457'">
@@ -65,20 +64,21 @@ Sissejuhatus ja kokkuvõte peaks olema omavahel seotud. Lugedes ainult sissejuha
 			</div>
 		</div>
 		</div>
+		<!-- now comes last image code -->
+		
+		<div id="lastimg">
+			<div class="hitbox" style="left:4%;top:26%;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1464'"></div>
+			<div class="hitbox" style="left:4%;top:40%;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1465'"></div>
+			<div class="hitbox" style="left:4%;top:50%;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1466'"></div>
+			<div class="hitbox" style="left:4%;top:60%;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1467'"></div>
+			<div class="hitbox" style="left:38%;top:27%;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1463'"></div>
+			<div class="hitbox" style="left:38%;top:38%;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1457'"></div>
+			<div class="hitbox" style="left:38%;top:47%;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1458'"></div>
+			<div class="hitbox" style="left:38%;top:56%;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1459'"></div>
+			<div class="hitbox" style="left:38%;top:65%;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1460'"></div>
+			<div class="hitbox" style="left:38%;top:74%;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1462'"></div>
+			<div class="hitbox" style="left:69%;top:1%;height:18%;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1471'"></div>
 		</div>
-		<img src="tekst.PNG" alt="alumine tekst" width="900" height=auto id="alumine">
-		<div class="hitbox" style="left:25px;top:940px;height:50px;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1464'"></div>
-		<div class="hitbox" style="left:25px;top:1010px;height:50px;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1465'"></div>
-		<div class="hitbox" style="left:25px;top:1080px;height:50px;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1466'"></div>
-		<div class="hitbox" style="left:25px;top:1130px;height:50px;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1467'"></div>
-		<div class="hitbox" style="left:315px;top:940px;height:60px;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1463'"></div>
-		<div class="hitbox" style="left:315px;top:1000px;height:50px;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1457'"></div>
-		<div class="hitbox" style="left:315px;top:1050px;height:50px;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1458'"></div>
-		<div class="hitbox" style="left:315px;top:1100px;height:50px;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1459'"></div>
-		<div class="hitbox" style="left:315px;top:1150px;height:50px;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1460'"></div>
-		<div class="hitbox" style="left:315px;top:1205px;height:70px;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1462'"></div>
-		<div class="hitbox" style="left:615px;top:800px;height:110px;" onclick="window.top.location.href = 'https://veebikool.audentes.ee/mod/book/view.php?id=10249&chapterid=1471'"></div>
-
 
 </body>
 <style>
@@ -93,8 +93,14 @@ max-height:785px;
 width:500px;
 position: relative;
 }
-#scale {
-
+#lastimg {
+background-image: url("tekst.PNG");
+background-size: contain;
+background-repeat: no-repeat;
+height:43vw;
+max-height:550px;
+width:900px;
+position: relative;
 }
 #t1 {
 display:inline-block;
@@ -147,6 +153,11 @@ height:900px;
 #kõrvuti {
 display: flex;
 flex-direction: row;
+height:70vw;
+max-height:800px;
+min-height:600px;
+width:900px;
+position: relative;
 }
 #alumine {
 position: absolute;
@@ -171,9 +182,11 @@ z-index: 2;
 .hitbox {
   position: absolute;
   z-index: 1;
-  width: 280px;
-  height: 20px;
+  width: 30%;
+  height: 9%;
   cursor: pointer;
+  background-color:red;
+  opacity:0.4;
 }
 .tooltip .tooltiptext {
   visibility: hidden;
